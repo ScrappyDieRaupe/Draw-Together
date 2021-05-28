@@ -1,0 +1,20 @@
+{
+  "name": "draw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "draw"
+  ],
+  "author": "Kirill Postnov",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.2",
+    "socket.io-client": "^4.0.2"
+  }
+}

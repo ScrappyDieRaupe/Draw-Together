@@ -1,0 +1,62 @@
+body, html {
+  overflow-y: hidden;
+}
+
+#canvas {
+  cursor: crosshair;
+}
+
+.sidenav {
+  height: 100%;
+  width: 4%; 
+  position: fixed;  
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #55d339;
+  overflow-x: hidden; 
+}
+
+#main {
+  width: 100%;
+}
+
+.button-group button {
+  background-color: #55d339;
+  border: 1px solid #46bd2b;
+  border-left: none;
+  border-right: none;
+  color: white;
+  padding: 1rem 0; 
+  cursor: pointer; 
+  width: 100%;
+  display: block; 
+}
+
+.button-group button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.button-group button:hover {
+  background-color: #46bd2b;
+}
+
+.button-group input[type="color"] {
+	display: none;
+}
+
+.button-group #input-color-label {
+  color: black;
+}
+
+.button-group #input-color-label:hover {
+  cursor: pointer;
+}
+
+.activated {
+  background-color: #46bd2b !important;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+}
