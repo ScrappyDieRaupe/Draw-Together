@@ -1,6 +1,6 @@
 # Draw-Together
 A simple collaborative white board I wrote while exploring HTML canvas.
-This project uses NodeJS for the backend and mostly plain JavaScript in the frontend.
+This project uses NodeJS for the backend and mostly plain JavaScript as well as Bootstrap in the frontend.
 
 ## Screenshots
 ![screenshot](https://github.com/ScrappyDieRaupe/Draw-Together/blob/master/screenshot.png "Screenshot")
